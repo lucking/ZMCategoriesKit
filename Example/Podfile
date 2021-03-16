@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZMCategoriesKit_Example' do
+  pod 'ZMCategoriesKit', :path => '../'
+
+  target 'ZMCategoriesKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
